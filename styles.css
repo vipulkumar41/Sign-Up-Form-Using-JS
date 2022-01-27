@@ -1,0 +1,71 @@
+body > table{
+    background: linear-gradient(#141e30, #243b55);
+    width: 100%;
+}
+
+table{
+    /* border-collapse: collapse; */
+    border: 2px solid black;
+    color: white;
+}
+table.list{
+    width:100%;
+    position: relative;
+    /* top: -205px; */
+    color: black;
+}
+th{
+    border: 10px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+td{
+    border: 10px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+
+
+input[type=text], input[type=number],input[type=password ],input[type=email ] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: #4caf50;
+    color: rgb(252, 252, 252);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
